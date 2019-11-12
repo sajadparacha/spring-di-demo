@@ -14,11 +14,11 @@ public class FakeDataSource {
     /**
      * Tell spring which property in the properties file will be maped with this variable
      */
-    @Value("${username1}")
+    @Value("${USER_NAME}")
     private String username;
     @Value("${password}")
     private String    password;
-    @Value("${datasourceurl}")
+    @Value("${datasourceur}")
     private String datasourceurl;
 
     public FakeDatasourceBean getFakeDataSourceBean(){
