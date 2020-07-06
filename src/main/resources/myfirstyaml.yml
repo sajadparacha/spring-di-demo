@@ -1,0 +1,24 @@
+#My first Yml File
+name: Sajjad
+names:#List of Name
+    -Sajjad
+    -Waqar
+    -Dilshad
+    -Raheel
+    -Moona
+#A book project with 2 properties
+book:
+   author:Sajjad
+   publisher:Waqar
+
+#include next line caharacters
+include_next_line: |
+  ncfkdsjlfds
+  fdsfdsfds
+  fdsfds
+#exclude next line
+exclude_next_line: >
+  haskdhask
+  dhasjkhdsa
+  dsahkhjkdsa
+isHuman: True

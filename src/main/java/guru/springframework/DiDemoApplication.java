@@ -20,6 +20,7 @@ public class DiDemoApplication {
 
 		FakeDataSource fakeDataSource=(FakeDataSource) ctx.getBean(FakeDataSource.class);
 		System.out.println(fakeDataSource.getFakeDataSourceBean().getUsername());
+		System.out.println(fakeDataSource.getFakeDataSourceBean().getCast());
 //		System.out.println(controller.hello());
 //		System.out.println(ctx.getBean(PropertyInjectedController.class).sayHello());
 //		System.out.println(ctx.getBean(GetterInjectedController.class).sayHello());

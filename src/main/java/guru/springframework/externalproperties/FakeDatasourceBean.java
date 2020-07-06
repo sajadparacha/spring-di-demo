@@ -7,6 +7,16 @@ public class FakeDatasourceBean {
     private String username;
     private String    password;
 
+    public String getCast() {
+        return cast;
+    }
+
+    public void setCast(String cast) {
+        this.cast = cast;
+    }
+
+    private String    cast;
+
     public String getUsername() {
         return username;
     }

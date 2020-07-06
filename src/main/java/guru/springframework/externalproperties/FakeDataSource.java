@@ -20,12 +20,15 @@ public class FakeDataSource {
     private String    password;
     @Value("${datasourceur}")
     private String datasourceurl;
+    @Value("${guru.cast}")
+    private String cast;
 
     public FakeDatasourceBean getFakeDataSourceBean(){
         FakeDatasourceBean fakeDatasourceBean=new FakeDatasourceBean();
         fakeDatasourceBean.setUsername(this.username);
         fakeDatasourceBean.setPassword(this.password);
         fakeDatasourceBean.setDatasourceurl(this.datasourceurl);
+        fakeDatasourceBean.setCast(this.cast);
         return fakeDatasourceBean;
     }
 
